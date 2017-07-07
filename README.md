@@ -46,6 +46,9 @@
     * [git分支管理](https://coding.net/help/doc/git/git-branch.html)
     * [nginx 部署](https://cnodejs.org/topic/5059ce39fd37ea6b2f07e1a3)
     * [阿里云服务器部署](http://www.cnblogs.com/nokiaguy/p/4703429.html)
+    * [react react-redux](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html)
+    * [react中间件和异步操作](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html)
+    * [react-redux](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_three_react-redux.html)
 * 2.小技巧
     * [使用mac高效工作](https://mp.weixin.qq.com/s?__biz=MjM5NzMyMjAwMA==&mid=208231200&idx=1&sn=8a76ddc56c1fe8e627fddf67c3a1b338&scene=1&srcid=0602hhBURlxdoan2diIGXlm2&key=18e81ac7415f67c4282c3c7422dc95c9af3d15b455f84754eea0d250484a42320a5ff5d43bced46ae94640427b481cf8&ascene=0&uin=NjI5ODAzNzE4&devicetype=iMac+MacBookPro12%2C1+OSX+OSX+10.11.4+build(15E65)&version=11020201&pass_ticket=YmPeyAbZqq0dT3fN9DIlNS8tAp4UP%2F9im4eRB0t%2BtmpVhftY0yG2SFPnO8m3XKlF)
     * [nodejs图片剪切](https://cnodejs.org/topic/51fc8bd944e76d216ab64939)
