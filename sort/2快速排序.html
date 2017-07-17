@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>快速排序</title>
+</head>
+<body>
+<script type="text/javascript">
+    //Math.floor向下取舍
+    //.splice()数组删除和添加项目，返回删除的项目为一数组，[0]取到此数组的值
+    //.concat()连接数组
+    //递归是调用自身
+    function quickSort(elements) {//debugger
+      if(elements.length <= 1){
+        return elements;
+      }
+      var pivotIndex = Math.floor(elements.length/2);//8
+      var pivot = elements.splice(pivotIndex,1)[0];
+      var left = [];
+      var right = [];
+      for(var i=0,len = elements.length;i<len;i++){
+        if(elements[i]<pivot){
+          left.push(elements[i]);
+        }else {
+          right.push(elements[i]);
+        }
+      }
+      console.log(quickSort(left));
+      return quickSort(left).concat([pivot],quickSort(right));
+      console.log(quickSort(left).concat([pivot],quickSort(right)));
+    };
+    var elements = [5,3,8,10,2];
+    console.log(quickSort(elements));
+</script>
+</body>
+</html>
